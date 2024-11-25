@@ -1,6 +1,6 @@
 baseURL = 'https://xtimesai.github.io/'
 languageCode = 'en-us'
-title = 'X_times_Ai'
+title = 'X times Ai'
 theme = 'lightbi-hugo'
 
 
