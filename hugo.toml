@@ -49,9 +49,9 @@ showPostImage = false
 [Params.Author]
   name = "John Liu"
   website = "https://www.google.com/"
-  authorInfo = "Live your life as though every moment matters, because in the end, it's not the years in your life, but the life in your years that counts."
+  authorInfo = "Stay Hungry"
   authorPostImage = "/img/author-post-img.jpg"
-  email = "sample@gmail.com"
+  email = "johnazureengineer@gmail.com"
   facebook = "username"
   instagram = "username"
   youtube = "user/username" # or channel/channelname
