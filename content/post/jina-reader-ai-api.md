@@ -46,7 +46,6 @@ Then, in October, Google added to AI Overviews’ language offerings: It can now
 
 As Google noted, language is not tied to a geographical location. Google will now be able to accurately claim 1 billion global users use its AI products, since AI Overviews appears in Search by default.
 
-**SEE: [Google Chrome: Security and UI tips you need to know](https://www.techrepublic.com/resource-library/downloads/google-chrome-security-and-ui-tips-you-need-to-know/) (TechRepublic Premium)**
 
 
 
@@ -66,21 +65,3 @@ AI Overviews has been controversial with [media publishers](https://www.nytimes.
 “In our testing, these updates drove an increase in traffic to supporting websites compared to the previous designs,”  Venkatachary wrote.
 
 While it’s uncertain if AI Overviews will stick around for the long haul, Google’s expanded rollout suggests a strong current commitment to the feature.
-
-Share Article
-
-*   [](https://www.techrepublic.com/sign-up/)
-*   [](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.techrepublic.com%2Farticle%2Fgoogle-search-ai-overviews-expands-100-countries%2F&t=Google%E2%80%99s+AI+Overviews+Expands+to+More+Than+100+Countries+and+Territories)
-*   [](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.techrepublic.com%2Farticle%2Fgoogle-search-ai-overviews-expands-100-countries%2F)
-*   [](https://twitter.com/intent/tweet?text=Google%E2%80%99s+AI+Overviews+Expands+to+More+Than+100+Countries+and+Territories+https%3A%2F%2Fwww.techrepublic.com%2F%3Fp%3D4272198+via+%40techrepublic)
-*   Account Information
-    -------------------
-    
-    Share with Your Friends
-    -----------------------
-    
-    Google’s AI Overviews Expands to More Than 100 Countries and Territories
-    
-         Your email has been sent
-    
-
