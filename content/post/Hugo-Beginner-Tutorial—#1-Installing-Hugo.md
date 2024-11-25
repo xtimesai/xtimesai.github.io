@@ -11,13 +11,23 @@ draft: false
 
 ## Introduction to Hugo Tutorial
 
-Hey team, welcome to this introduction to Hugo tutorial. The goal of this series is to take you from a lion cub with basic web design knowledge to creating your first Hugo site. In this series, you'll learn how to set up a Hugo site, the basics of Hugo layouts, partials, and templating, set up a blog, and finally use data files. By the end of this series, you'll have the foundational knowledge to build your own Hugo site.
+Hey team, welcome to this introduction to Hugo tutorial. The goal of this series is to take you from a lion cub with basic web design knowledge to creating your first Hugo site. 
+
+In this series, you'll learn how to set up a Hugo site, the basics of Hugo layouts, partials, and templating, set up a blog, and finally use data files. 
+
+By the end of this series, you'll have the foundational knowledge to build your own Hugo site.
 
 ## What is Hugo?
 
-Hugo is a static site generator. It takes a directory of source files and runs a build process over them to generate a purely static website. What makes a Hugo site unique is its unparalleled build speeds and strict conventions around layouts, taxonomies, and content. It's a static site generator that powers high-profile websites such as Let's Encrypt, 1Password, the Lino documentation, and digital.gov.
+Hugo is a static site generator. It takes a directory of source files and runs a build process over them to generate a purely static website. 
 
-Hugo is one of the simplest static site generators to install as it's distributed as a single binary—one of the many perks of a Go program. If you're using macOS or Linux, then Homebrew is the easiest way to install Hugo. Once you have Homebrew installed, you can run:
+What makes a Hugo site unique is its unparalleled build speeds and strict conventions around layouts, taxonomies, and content. 
+
+It's a static site generator that powers high-profile websites such as Let's Encrypt, 1Password, the Lino documentation, and digital.gov.
+
+Hugo is one of the simplest static site generators to install as it's distributed as a single binary—one of the many perks of a Go program. If you're using macOS or Linux, then Homebrew is the easiest way to install Hugo. 
+
+Once you have Homebrew installed, you can run:
 bashCopybrew install hugo
 
 If you're on Windows, then Chocolatey package manager is the way to go. Once Chocolatey is installed, you can run:
@@ -25,11 +35,17 @@ bashCopychoco install hugo-extended --confirm
 
 Let's triple check that all went to plan. In your terminal, check the Hugo version:
 bashCopyhugo version
-If that printed out a version number, you're good to go! If not, consult the Hugo documentation or reach out on the Hugo community forums.
-Now we're going to set up our Hugo site. In your terminal, navigate to the directory where you want your Hugo project to live and run this command:
+If that printed out a version number, you're good to go! 
+
+If not, consult the Hugo documentation or reach out on the Hugo community forums.
+Now we're going to set up our Hugo site. 
+
+In your terminal, navigate to the directory where you want your Hugo project to live and run this command:
 bashCopyhugo new site my-first-hugo-site
 
-Hugo will set up the scaffolding for your site. Open your site up in your favorite code editor and poke through the contents. You'll see a number of directories that probably don't mean anything to you at this stage. I'll give a brief explanation of each one, but don't fret if you don't understand them right now; they'll become more familiar over the course of this series.
+Hugo will set up the scaffolding for your site. 
+
+Open your site up in your favorite code editor and poke through the contents. You'll see a number of directories that probably don't mean anything to you at this stage. I'll give a brief explanation of each one, but don't fret if you don't understand them right now; they'll become more familiar over the course of this series.
 
 archetypes: Defines the default metadata (also known as front matter) for new content. You don't need to worry about archetypes for this series.
 content: Your typically markdown content for pages lives here.
