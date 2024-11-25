@@ -29,30 +29,47 @@ Hugo is one of the simplest static site generators to install as it's distribute
 
 Once you have Homebrew installed, you can run:
 
+
 ```
 brew install hugo
 ```
 
 
 If you're on Windows, then Chocolatey package manager is the way to go. Once Chocolatey is installed, you can run:
-bashCopychoco install hugo-extended --confirm
+
+
+```
+choco install hugo-extended --confirm
+```
+
 
 Let's triple check that all went to plan. In your terminal, check the Hugo version:
-bashCopyhugo version
+
+
+```
+hugo version
+```
+
+
 If that printed out a version number, you're good to go! 
 
 If not, consult the Hugo documentation or reach out on the Hugo community forums.
+
 Now we're going to set up our Hugo site. 
 
 In your terminal, navigate to the directory where you want your Hugo project to live and run this command:
+
 
 ```
 hugo new site my-first-hugo-site
 ```
 
+
 Hugo will set up the scaffolding for your site. 
 
-Open your site up in your favorite code editor and poke through the contents. You'll see a number of directories that probably don't mean anything to you at this stage. I'll give a brief explanation of each one, but don't fret if you don't understand them right now; they'll become more familiar over the course of this series.
+Open your site up in your favorite code editor and poke through the contents. You'll see a number of directories that probably don't mean anything to you at this stage. 
+
+I'll give a brief explanation of each one, but don't fret if you don't understand them right now; they'll become more familiar over the course of this series.
 
 archetypes: Defines the default metadata (also known as front matter) for new content. You don't need to worry about archetypes for this series.
 
@@ -67,5 +84,6 @@ static: All your assets that don't need processing (often images, fonts, PDFs, e
 themes: Jumpstart your Hugo site with an existing theme (we won't be using themes in this series).
 
 config.toml: The configuration for your soon-to-be flourishing Hugo site.
+
 
 Stay tuned for the next lesson; we will learn the basics of Hugo layouts!
