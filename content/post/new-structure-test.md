@@ -13,4 +13,4 @@ draft: false
 ### test
 #### test
 
-{{< video src="video/find_our_peace.mp4" >}}
+{{< video src="video/find_our_peace.mp4" type="video/mp4" >}}
