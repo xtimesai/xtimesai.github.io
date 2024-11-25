@@ -1,3 +1,15 @@
+---
+title: "Hugo Skeleton Theme"
+date: 2024-11-24T10:07:12-05:00
+draft: false
+tags: ["markdown", "tutorial", "hugo", "blog"]
+image: "img/rainbow.jpeg"
+Description: "Welcome back to the channel.
+We're going to be looking at a new cool feature, which is the Hugo skeleton theme.
+It helps you get started with Hugo a little bit faster, and it's also great for testing."
+featured: true
+---
+
 welcome back to the channel 
 we're going to be looking at a new cool feature which is the Hugo skeleton theme 
 it helps you get started with Hugo a little bit faster 

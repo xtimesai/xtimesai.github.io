@@ -47,8 +47,8 @@ previewCardImagePlacement = "top"
 showPostImage = false
 
 [Params.Author]
-  name = "Bino Kochumol Varghese"
-  website = "https://www.binovarghese.com/"
+  name = "John Liu"
+  website = "https://www.google.com/"
   authorInfo = "Live your life as though every moment matters, because in the end, it's not the years in your life, but the life in your years that counts."
   authorPostImage = "/img/author-post-img.jpg"
   email = "sample@gmail.com"

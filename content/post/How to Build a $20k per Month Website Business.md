@@ -5,7 +5,7 @@ draft: false
 description: "Learn how to build a profitable website business by offering services to local businesses, from finding clients to scaling your income with recurring revenue."
 categories: ["Business", "Entrepreneurship"]
 tags: ["websites", "digital nomad", "freelancing", "local business", "passive income"]
-image: "walmart-cucumber.jpeg"
+image: "img/walmart-cucumber.jpeg"
 featured: true
 ---
 

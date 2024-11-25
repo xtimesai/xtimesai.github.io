@@ -3,7 +3,7 @@ title: "Create_a_mp3_file"
 date: 2024-11-16T06:52:56-05:00
 description : "Description goes here..."
 tags: [""]
-image : ""
+image: "img/rainbow.jpeg"
 draft: false
 ---
 
