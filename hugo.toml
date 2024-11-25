@@ -43,8 +43,8 @@ rss = false
 pagination = "10"
 hideAuthor = false
 description="Your can add your website description here."
-previewCardImagePlacement = "bottom"
-showPostImage = true
+previewCardImagePlacement = "top"
+showPostImage = false
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
