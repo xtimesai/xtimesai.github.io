@@ -8,42 +8,63 @@
     <language>en-us</language>
     <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
     <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
-    <lastBuildDate>Mon, 25 Nov 2024 12:41:03 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 10:44:42 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From Cub to Lion 2</title>
-      <link>http://localhost:1313/post/from-cub-to-lion-2/</link>
-      <pubDate>Mon, 25 Nov 2024 12:41:03 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>http://localhost:1313/post/from-cub-to-lion-2/</guid>
+      <title>From Cub to Lion 1. Installation</title>
+      <link>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-1/</link>
+      <pubDate>Mon, 25 Nov 2024 10:44:42 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-1/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SVvihs0WfhQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction-to-hugo-tutorial&#34;&gt;Introduction to Hugo Tutorial&lt;/h2&gt;&#xA;&lt;p&gt;Hey team, welcome to this introduction to Hugo tutorial. The goal of this series is to take you from a lion cub with basic web design knowledge to creating your first Hugo site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Cub to Lion 2. Layouts</title>
+      <link>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-2/</link>
+      <pubDate>Sun, 24 Nov 2024 12:41:03 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-2/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/xRwZmWItIBA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;hugo-beginner-tutorial--2-hugo-layouts&#34;&gt;Hugo Beginner Tutorial — #2 Hugo Layouts&lt;/h2&gt;&#xA;&lt;p&gt;Introduction&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hugo Beginner Tutorial—#1 Installing Hugo</title>
-      <link>http://localhost:1313/post/hugo-beginner-tutorial%231-installing-hugo/</link>
-      <pubDate>Mon, 25 Nov 2024 10:44:42 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>http://localhost:1313/post/hugo-beginner-tutorial%231-installing-hugo/</guid>
+      <title>From Cub to Lion 3. Partials</title>
+      <link>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-3/</link>
+      <pubDate>Sat, 23 Nov 2024 12:41:03 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-3/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EGwLmE7hfSE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;hugo-beginner-tutorial--3-hugo-partials&#34;&gt;Hugo Beginner Tutorial — #3 Hugo Partials&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introduction-to-partials&#34;&gt;Introduction to Partials&lt;/h3&gt;&#xA;&lt;p&gt;(00:06)&#xA;The idea behind a partial is simple:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Cub to Lion 4. Templating</title>
+      <link>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-4/</link>
+      <pubDate>Fri, 22 Nov 2024 10:44:42 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-4/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SVvihs0WfhQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction-to-hugo-tutorial&#34;&gt;Introduction to Hugo Tutorial&lt;/h2&gt;&#xA;&lt;p&gt;Hey team, welcome to this introduction to Hugo tutorial. The goal of this series is to take you from a lion cub with basic web design knowledge to creating your first Hugo site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Cub to Lion 5. Blogging</title>
+      <link>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-5/</link>
+      <pubDate>Thu, 21 Nov 2024 12:41:03 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-5/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/xRwZmWItIBA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;hugo-beginner-tutorial--2-hugo-layouts&#34;&gt;Hugo Beginner Tutorial — #2 Hugo Layouts&lt;/h2&gt;&#xA;&lt;p&gt;Introduction&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Cub to Lion 6. Data Files</title>
+      <link>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-6/</link>
+      <pubDate>Wed, 20 Nov 2024 12:41:03 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/hugo-tutorial-from-cub-to-lion-6/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EGwLmE7hfSE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;hugo-beginner-tutorial--3-hugo-partials&#34;&gt;Hugo Beginner Tutorial — #3 Hugo Partials&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introduction-to-partials&#34;&gt;Introduction to Partials&lt;/h3&gt;&#xA;&lt;p&gt;(00:06)&#xA;The idea behind a partial is simple:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo Skeleton Theme</title>
       <link>http://localhost:1313/post/hugo-skeleton-theme/</link>
-      <pubDate>Sun, 24 Nov 2024 10:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <pubDate>Tue, 19 Nov 2024 10:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>http://localhost:1313/post/hugo-skeleton-theme/</guid>
       <description>&lt;p&gt;welcome back to the channel&#xA;we&amp;rsquo;re going to be looking at a new cool feature which is the Hugo skeleton theme&#xA;it helps you get started with Hugo a little bit faster&#xA;and it&amp;rsquo;s also great for testing&#xA;for this video you need to have the latest version of Hugo installed and visual studio code set up&#xA;I&amp;rsquo;ve got a video on how to install Hugo along with everything else you&amp;rsquo;ll need that links above&#xA;on completing this video you&amp;rsquo;ll be able to create a skeleton project which doesn&amp;rsquo;t have a theme in it&#xA;add a skeleton theme to that project&#xA;and also create the same setup but without a theme directory&#xA;so open up Powershell in a directory where i&amp;rsquo; would like to create the project&#xA;I use the command Hugo new site&#xA;and then I put the name in&#xA;so we&amp;rsquo;ll call it skeleton and it&amp;rsquo;s been created&#xA;however we haven&amp;rsquo;t got a theme in it&#xA;but we&amp;rsquo;ll have a look at it first so&#xA;so if we right click and choose open with code&#xA;have a look&#xA;all the folders are created for us&#xA;we&amp;rsquo;ve got a hug hugo. tomal file&#xA;but we don&amp;rsquo;t have any themes layouts uh content and that&amp;rsquo;s where the theme comes in handy&#xA;we can now open up a new terminal&#xA;we&amp;rsquo;ll run Hugo new theme we&amp;rsquo;ll just call it my theme&#xA;and we have a look in there you&amp;rsquo;ll notice we&amp;rsquo;ve got some content and some layouts uh it&amp;rsquo;s all been set up for us we going to go into our hugo. tml file and explain um that&amp;rsquo;s the thing we want to use so we&amp;rsquo;ll type in the key of theme and we&amp;rsquo;ll use my theme so we&amp;rsquo;ll save that and we can run Hugo server&#xA;and control click and then we&amp;rsquo;ve got uh the site setup the skeleton theme there isn&amp;rsquo;t a whole lot to it it is super basic if we have a look at the b. HTML you&amp;rsquo;ll see we&amp;rsquo;ve got the Bare Bones in there and we&amp;rsquo;ve got a our head set up with CSS JS the basic&#xA;are ready to go it&amp;rsquo;s been noted by the Hugo developers that they&amp;rsquo;ve deliberately left out intermediate and advanced features and this is just for really simple testing if You&amp;rsquo; like to set this up with more advanced features that&amp;rsquo;s something you have to do yourself so now I have look at doing the exact same thing but without using a theme directory so this time we&amp;rsquo;ll run Hugo new theme&#xA;and we&amp;rsquo;ll call it skeleton no theme di for example and specify the theme directory as the base of the project run that it&amp;rsquo;s then merged the two together and I&amp;rsquo;ll put those in the description for you then open it up in Visual Studio code&#xA;have a look in the layouts folder and you&amp;rsquo;ll see it&amp;rsquo;s all been merged into the one project we&amp;rsquo;re not worrying about that themes directory anymore we can go to the terminal we can run Hugo server and control click we&amp;rsquo;re ready to go you can start developing Hugo site from there or you can run some simple tests so that&amp;rsquo;s it for the video remember to hit that like button hit subscribe&#xA;and the bell notification I&amp;rsquo;m always releasing new videos every week on Hugo and other modern web Technologies and you&amp;rsquo;ll find a heap of other videos on my YouTube channel as well as you&amp;rsquo;ll find me on skillshare it&amp;rsquo;s all in the description see you next week&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jina Reader Ai Api</title>
       <link>http://localhost:1313/post/jina-reader-ai-api/</link>
-      <pubDate>Sat, 23 Nov 2024 20:29:32 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <pubDate>Mon, 18 Nov 2024 20:29:32 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>http://localhost:1313/post/jina-reader-ai-api/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SVvihs0WfhQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;googles-ai-overviews-expands-to-more-than-100-countries-and-territories&#34;&gt;Google’s AI Overviews Expands to More Than 100 Countries and Territories&lt;/h1&gt;&#xA;&lt;p&gt;Published October 29, 2024&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown 语法入门指南</title>
-      <link>http://localhost:1313/post/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>http://localhost:1313/post/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Write your introduction here. The first few sentences should hook your reader and give them a clear idea of what to expect from this post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-content&#34;&gt;Main Content&lt;/h2&gt;&#xA;&lt;p&gt;Your main content goes here. Remember to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keep Your Faith Strong and Your Patience Steady</title>
@@ -93,6 +114,13 @@
       <pubDate>Sun, 17 Nov 2024 10:46:50 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>http://localhost:1313/post/%E6%9D%A5%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%8F%96%E5%87%A0%E6%9C%AC%E4%B9%A6/</guid>
       <description>&lt;p&gt;来图书馆取几本书，意外看见这辆车，贴满了全世界的各种旅行标签贴纸，一下子被吸引住，眼睛简直离不开，忍不住想拍下来&lt;/p&gt;&#xA;&lt;p&gt;一生就要过去了，我很怀念ta&lt;/p&gt;&#xA;&lt;p&gt;开始我以为是一位西人，也可能只是这家的小孩们找了很多很多标签贴纸随意贴在车上。旁边走过一位白人老太太说，这样子的话，卖车的时候，可是不容易&lt;/p&gt;&#xA;&lt;p&gt;从图书馆出来，又绕着看了一大圈。车主夫妻过来，是华人，我还和大哥聊了一会儿，先是英语，然后国语。20年时间，差不多绕地球好几圈了。大哥说经常来图书馆，我们相约下次再聊&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown 语法入门指南</title>
+      <link>http://localhost:1313/post/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>http://localhost:1313/post/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Write your introduction here. The first few sentences should hook your reader and give them a clear idea of what to expect from this post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-content&#34;&gt;Main Content&lt;/h2&gt;&#xA;&lt;p&gt;Your main content goes here. Remember to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create_a_mp3_file</title>

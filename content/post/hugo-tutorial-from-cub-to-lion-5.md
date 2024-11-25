@@ -1,9 +1,9 @@
 ---
-title: "From Cub to Lion 2"
-date: 2024-11-25T12:41:03-05:00
+title: "From Cub to Lion 5. Blogging"
+date: 2024-11-21T12:41:03-05:00
 description : "Description goes here..."
 tags: [""]
-image : "img/fromcub-2.jpg"
+image : "img/from-cub-2.jpg"
 draft: false
 ---
 

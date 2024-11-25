@@ -1,9 +1,9 @@
 ---
-title: "Hugo Beginner Tutorial—#1 Installing Hugo"
-date: 2024-11-25T10:44:42-05:00
-description : "Description goes here..."
+title: "From Cub to Lion 4. Templating"
+date: 2024-11-22T10:44:42-05:00
+description : "In this series, you'll learn how to set up a Hugo site, the basics of Hugo layouts, partials, and templating, set up a blog, and finally use data files."
 tags: [""]
-image : "img/youtube_thumbnail.jpg.webp"
+image : "img/from-cub-1.jpg"
 draft: false
 ---
 
