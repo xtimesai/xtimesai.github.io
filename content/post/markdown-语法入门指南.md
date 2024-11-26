@@ -3,7 +3,7 @@ title: "Markdown 语法入门指南"
 tags: ["markdown", "tutorial", "语法"]
 image: "/img/rainbow.jpeg"
 Description: "本指南介绍了Markdown的基本语法，帮助你快速上手并开始编写内容。"
-date: 2024-11-22
+date: 2024-11-17
 draft: false
 categories: ["general"]
 author: "John Liu"

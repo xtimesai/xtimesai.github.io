@@ -1,6 +1,6 @@
 ---
 title: "Hugo Skeleton Theme"
-date: 2024-11-24T10:07:12-05:00
+date: 2024-11-19T10:07:12-05:00
 draft: false
 tags: ["markdown", "tutorial", "hugo", "blog"]
 image: "img/rainbow.jpeg"
