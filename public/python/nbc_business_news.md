@@ -1,0 +1,1 @@
+Error using new markdown generation strategy: cannot access local variable 'filtered_html' where it is not associated with a value

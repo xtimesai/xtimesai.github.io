@@ -1,0 +1,1 @@
+Set flag 'fit_markdown' to True to get cleaned HTML content.
