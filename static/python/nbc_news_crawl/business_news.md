@@ -1,0 +1,156 @@
+# Crawl Results for https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631
+
+**Success:** True
+
+**Status Code:** 200
+
+## Metadata
+- **Title:** Israel and Hezbollah move closer to a cease-fire
+- **Description:** A cease-fire deal to end the conflict between Israel and Hezbollah was close but not complete Monday, three senior Biden administration officials told NBC News.
+- **Keywords:** None
+- **Author:** None
+- **Og:site_name:** NBC News
+- **Og:locale:** en_US
+- **Og:url:** https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631
+- **Og:title:** Israel and Hezbollah move closer to a cease-fire
+- **Og:description:** The development comes amid a continuation of heavy strikes from both sides.
+- **Og:image:** https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-11/241125-lebanon-beirut-israel-mn-1050-1caa96.jpg
+- **Og:image:secure_url:** https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-11/241125-lebanon-beirut-israel-mn-1050-1caa96.jpg
+- **Og:image:type:** image/jpeg
+- **Og:image:width:** 1200
+- **Og:image:height:** 630
+- **Og:type:** article
+- **Twitter:site:** @NBCNews
+- **Twitter:creator:** NBCNews
+- **Twitter:image:src:** https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/rockcms/2024-11/241125-lebanon-beirut-israel-mn-1050-1caa96.jpg
+- **Twitter:image:** https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/rockcms/2024-11/241125-lebanon-beirut-israel-mn-1050-1caa96.jpg
+- **Twitter:title:** Israel and Hezbollah move closer to a cease-fire
+- **Twitter:description:** The development comes amid a continuation of heavy strikes from both sides.
+- **Twitter:card:** summary_large_image
+
+## Extracted Links
+### Internal Links:
+- {'href': 'https://www.nbcnews.com', 'text': 'NBC News Logo', 'title': ''}
+- {'href': 'https://www.nbcnews.com/politics', 'text': 'Politics', 'title': ''}
+- {'href': 'https://www.nbcnews.com/sports/nfl/live-blog/monday-night-football-ravens-chargers-live-updates-rcna181653', 'text': 'NFL', 'title': ''}
+- {'href': 'https://www.nbcnews.com/us-news', 'text': 'U.S. News', 'title': ''}
+- {'href': 'https://www.nbcnews.com/new-york', 'text': 'New York', 'title': ''}
+- {'href': 'https://www.nbcnews.com/los-angeles', 'text': 'Los Angeles', 'title': ''}
+- {'href': 'https://www.nbcnews.com/chicago', 'text': 'Chicago', 'title': ''}
+- {'href': 'https://www.nbcnews.com/dallas-fort-worth', 'text': 'Dallas-Fort Worth', 'title': ''}
+- {'href': 'https://www.nbcnews.com/philadelphia', 'text': 'Philadelphia', 'title': ''}
+- {'href': 'https://www.nbcnews.com/washington', 'text': 'Washington, D.C.', 'title': ''}
+- {'href': 'https://www.nbcnews.com/boston', 'text': 'Boston', 'title': ''}
+- {'href': 'https://www.nbcnews.com/bay-area', 'text': 'Bay Area', 'title': ''}
+- {'href': 'https://www.nbcnews.com/miami', 'text': 'South Florida', 'title': ''}
+- {'href': 'https://www.nbcnews.com/san-diego', 'text': 'San Diego', 'title': ''}
+- {'href': 'https://www.nbcnews.com/connecticut', 'text': 'Connecticut', 'title': ''}
+- {'href': 'https://www.nbcnews.com/world', 'text': 'World', 'title': ''}
+- {'href': 'https://www.nbcnews.com/business', 'text': 'Business', 'title': ''}
+- {'href': 'http://www.nbcnews.com/sports', 'text': 'Sports', 'title': ''}
+- {'href': 'https://www.nbcnews.com/health', 'text': 'Health', 'title': ''}
+- {'href': 'https://www.nbcnews.com/select', 'text': 'Shopping', 'title': ''}
+- {'href': 'https://www.nbcnews.com/tips/', 'text': 'Tipline', 'title': ''}
+- {'href': 'https://www.nbcnews.com/culture-matters', 'text': 'Culture & Trends', 'title': ''}
+- {'href': 'https://www.nbcnews.com/science', 'text': 'Science', 'title': ''}
+- {'href': 'https://www.nbcnews.com/now', 'text': 'Watch live', 'title': ''}
+- {'href': 'sms:?body=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20 via nbcnews - https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631', 'text': '', 'title': ''}
+- {'href': 'https://www.nbcnews.com/my-news', 'text': 'My News', 'title': ''}
+- {'href': 'https://www.nbcnews.com/politics/2024-presidential-election', 'text': 'Decision 2024', 'title': ''}
+- {'href': 'https://www.nbcnews.com/investigations', 'text': 'Investigations', 'title': ''}
+- {'href': 'https://www.nbcnews.com/tech-media', 'text': 'Tech & Media', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/weather', 'text': 'Weather', 'title': ''}
+- {'href': 'https://www.nbcnews.com/video-features', 'text': 'Video Features', 'title': ''}
+- {'href': 'https://www.nbcnews.com/photos', 'text': 'Photos', 'title': ''}
+- {'href': 'https://www.nbcnews.com/asian-america', 'text': 'NBC Asian America', 'title': ''}
+- {'href': 'https://www.nbcnews.com/nbcblk', 'text': 'NBC BLK', 'title': ''}
+- {'href': 'https://www.nbcnews.com/latino', 'text': 'NBC Latino', 'title': ''}
+- {'href': 'https://www.nbcnews.com/nbc-out', 'text': 'NBC OUT', 'title': ''}
+- {'href': 'https://www.nbcnews.com/nightly-news', 'text': 'Nightly News', 'title': ''}
+- {'href': 'https://www.nbcnews.com/meet-the-press', 'text': 'Meet the Press', 'title': ''}
+- {'href': 'https://www.nbcnews.com/dateline', 'text': 'Dateline', 'title': ''}
+- {'href': 'https://www.nbcnews.com/nightly-films', 'text': 'Nightly Films', 'title': ''}
+- {'href': 'https://www.nbcnews.com/specials', 'text': 'Special Features', 'title': ''}
+- {'href': 'https://www.nbcnews.com/newsletters', 'text': 'Newsletters', 'title': ''}
+- {'href': 'https://www.nbcnews.com/podcasts', 'text': 'Podcasts', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163', 'text': 'Listen Now', 'title': ''}
+- {'href': 'https://www.nbcnews.com/nextstepsforveterans', 'text': 'NEXT STEPS FOR VETS', 'title': ''}
+- {'href': 'https://www.nbcnews.com/archive', 'text': 'NBC News Site Map', 'title': ''}
+- {'href': 'https://www.nbcnews.com/latest-stories', 'text': 'Latest Stories', 'title': ''}
+- {'href': 'https://www.nbcnews.com/Middle-East-Conflict', 'text': 'Middle East Conflict', 'title': ''}
+- {'href': 'sms:?&body=Israel and Hezbollah move closer to a cease-fire  via nbcnews - https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631', 'text': '', 'title': ''}
+- {'href': 'https://www.nbcnews.com/author/andrea-mitchell-ncpn3416', 'text': 'Andrea Mitchell', 'title': ''}
+- {'href': 'https://www.nbcnews.com/author/elizabeth-chuck-ncpn341', 'text': 'Elizabeth Chuck', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/world/israel-airstrikes-bomb-beirut-gaza-tyre-rcna181465', 'text': 'Israeli airstrikes killed at least 20 people', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/world/hezbollah-rockets-tel-aviv-rcna181564', 'text': 'leaving neighborhoods in flames', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/us-news/san-jose-state-volleyball-player-center-fight-trans-athletes-can-compe-rcna181712', 'text': '', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/us-news/menendez-brothers-free-resentencing-rcna181428', 'text': '', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/world/israel-strikes-lebanon-ancient-monuments-baalbek-rcna180332', 'text': 'according to local officials', 'title': ''}
+- {'href': 'https://www.nbcnews.com/politics/israel-kills-hezbollah-leader-planned-elaborate-attack-us-soldiers-ira-rcna181315', 'text': 'killed a senior Hezbollah commander', 'title': ''}
+- {'href': 'https://www.nbcnews.com/news/world/satellite-images-show-damage-iran-military-sites-israel-attack-rcna177552', 'text': 'attacked Iran on its soil', 'title': ''}
+- {'href': 'https://www.nbcnews.com/information/nbc-news-info/about-nbc-news-digital-n1232178', 'text': 'About', 'title': ''}
+- {'href': 'https://www.nbcnews.com/information/nbc-news-info/contact-us-n1232521', 'text': 'Contact', 'title': ''}
+- {'href': 'https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063', 'text': 'Closed Captioning', 'title': ''}
+### External Links:
+- {'href': 'https://www.facebook.com/sharer/sharer.php?u=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&cid=article_share_facebook', 'text': '', 'title': ''}
+- {'href': 'https://twitter.com/intent/tweet?text=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&via=nbcnews&url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&original_referer=URL&cid=article_share_twitter', 'text': '', 'title': ''}
+- {'href': 'mailto:?subject=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&body=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631', 'text': '', 'title': ''}
+- {'href': 'https://id.nbcnews.com/my-account?brand=nbc-news', 'text': 'Manage Profile', 'title': ''}
+- {'href': 'https://id.nbcnews.com/email-preferences?brand=nbc-news', 'text': 'Email Preferences', 'title': ''}
+- {'href': 'https://www.today.com/', 'text': 'Today', 'title': ''}
+- {'href': 'https://www.msnbc.com/', 'text': 'MSNBC', 'title': ''}
+- {'href': 'https://story.snapchat.com/p/8bb879c7-45c0-499c-bb3c-7a3d0e229301/347654839924736', 'text': 'Stay Tuned', 'title': ''}
+- {'href': 'https://www.cnbc.com/', 'text': 'CNBC', 'title': ''}
+- {'href': 'https://www.nbc.com/', 'text': 'NBC.COM', 'title': ''}
+- {'href': 'https://nbcuacademy.com/', 'text': 'NBCU Academy', 'title': ''}
+- {'href': 'https://www.peacocktv.com/?cid=20200715takeflightoneedi027&utm_source=nbcnews&utm_medium=symphony_display_homepagetakeover_link&utm_campaign=20200715takeflight&utm_term=weblink&utm_content=navlink&irclickid=TkV0N91B1xyPUp%3AXtkW3K14cUkFU%3AkRRw2cvQQ0&irgwc=1&utm_source=pk_vrs_imra&utm_medium=pd_aff_acq_psdlnk&utm_term=Skimbit%20Ltd.&utm_content=828265&cid=2201affiliateevgnpkpdaff4393&utm_campaign=2201affiliateevgn', 'text': 'Peacock', 'title': ''}
+- {'href': 'https://nbcnews.zendesk.com/hc/en-us', 'text': 'Help', 'title': ''}
+- {'href': 'https://www.facebook.com/NBCNews', 'text': '', 'title': ''}
+- {'href': 'https://x.com/nbcnews', 'text': '', 'title': ''}
+- {'href': 'javascript:if(window.print)window.print()', 'text': 'Print', 'title': ''}
+- {'href': 'https://api.whatsapp.com/send?phone=&text=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20 https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&cid=article_share_whatsapp', 'text': 'Whatsapp', 'title': ''}
+- {'href': 'http://www.reddit.com/submit?url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&title=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&cid=article_share_reddit', 'text': 'Reddit', 'title': ''}
+- {'href': 'https://getpocket.com/save?url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&title=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&cid=article_share_pocket', 'text': 'Pocket', 'title': ''}
+- {'href': 'https://share.flipboard.com/bookmarklet/popout?v=2&title=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&cid=article_share_flipboard', 'text': 'Flipboard', 'title': ''}
+- {'href': 'http://pinterest.com/pin/create/link/?url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&cid=article_share_pinterest', 'text': 'Pinterest', 'title': ''}
+- {'href': 'https://www.linkedin.com/shareArticle?mini=true&url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&title=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&cid=article_share_linkedin', 'text': 'Linkedin', 'title': ''}
+- {'href': 'https://www.facebook.com/sharer/sharer.php?u=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&cid=article_social_share_facebook', 'text': '', 'title': ''}
+- {'href': 'https://www.twitter.com/intent/tweet?text=Israel%20and%20Hezbollah%20move%20closer%20to%20a%20cease-fire%20&via=nbcnews&url=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&original_referer=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631&cid=article_social_share_twitter', 'text': '', 'title': ''}
+- {'href': 'mailto:?subject=Israel and Hezbollah move closer to a cease-fire &body=https://www.nbcnews.com/news/world/israel-hezbollah-move-closer-cease-fire-rcna181631', 'text': '', 'title': ''}
+- {'href': 'https://x.com/mitchellreports', 'text': '', 'title': ''}
+- {'href': 'https://x.com/echuckles', 'text': '', 'title': ''}
+- {'href': 'https://facebook.com/elizabethNBCNews', 'text': '', 'title': ''}
+- {'href': 'mailto:elizabeth.chuck@nbcuni.com', 'text': '', 'title': ''}
+- {'href': 'https://www.nbcunicareers.com/', 'text': 'Careers', 'title': ''}
+- {'href': 'https://www.nbcuniversal.com/privacy/cookies#accordionheader2', 'text': 'Ad Choices', 'title': ''}
+- {'href': 'https://www.nbcuniversal.com/privacy?intake=NBC_News', 'text': 'Privacy Policy', 'title': ''}
+- {'href': 'https://www.nbcuniversal.com/privacy/california-consumer-privacy-act?intake=NBC_News', 'text': 'CA Notice', 'title': ''}
+- {'href': 'https://www.nbcuniversal.com/terms', 'text': 'Terms of Service (Updated JULY 7, 2023)', 'title': ''}
+- {'href': 'https://together.nbcuni.com/advertise/?utm_source=nbc_news&utm_medium=referral&utm_campaign=property_ad_pages', 'text': 'Advertise', 'title': ''}
+- {'href': 'https://www.cnbc.com/select/', 'text': 'Select Personal Finance', 'title': ''}
+- {'href': 'https://www.msnbc.com', 'text': 'MSNBC Logo', 'title': ''}
+- {'href': 'https://www.today.com', 'text': 'Today Logo', 'title': ''}
+- {'href': 'https://www.nbcuniversal.com/brands', 'text': 'its affiliates', 'title': ''}
+- {'href': 'https://www.nbcuniversal.com/privacy', 'text': 'here', 'title': ''}
+- {'href': 'https://support.google.com/chrome/answer/95647?hl=en&p=cpn_cookies', 'text': 'Google Chrome', 'title': ''}
+- {'href': 'https://support.apple.com/en-gb/HT201265', 'text': 'Apple Safari', 'title': ''}
+- {'href': 'https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences?redirectlocale=en-US&redirectslug=Enabling+and+disabling+cookies', 'text': 'Mozila Firefox', 'title': ''}
+- {'href': 'https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies', 'text': 'Microsoft Internet Explorer', 'title': ''}
+- {'href': 'https://policies.google.com/privacy', 'text': 'Google’s Privacy Policy', 'title': ''}
+- {'href': 'https://tools.google.com/dlpage/gaoptout', 'text': 'Google Analytics Opt-Out', 'title': ''}
+- {'href': 'http://www.adobe.com/privacy/analytics.html', 'text': 'Omniture’s Privacy Policy', 'title': ''}
+- {'href': 'http://www.adobe.com/privacy/opt-out.html', 'text': 'Omniture’s Opt-Out', 'title': ''}
+- {'href': 'https://mixpanel.com/privacy/', 'text': 'Mixpanel’s Privacy Policy', 'title': ''}
+- {'href': 'https://mixpanel.com/optout/', 'text': 'Mixpanel’s Opt-Out', 'title': ''}
+- {'href': 'http://www.aboutads.info/choices/', 'text': 'Digital Advertising Alliance in the US', 'title': ''}
+- {'href': 'https://youradchoices.ca/choices/', 'text': 'Digital Advertising Alliance of Canada', 'title': ''}
+- {'href': 'http://www.youronlinechoices.com/', 'text': 'European Interactive Digital Advertising Alliance', 'title': ''}
+- {'href': 'http://www.youronlinechoices.com.au/your-ad-choices/', 'text': 'Australian Digital Advertising Alliance', 'title': ''}
+- {'href': 'https://www.facebook.com/privacy/explanation', 'text': 'Facebook Privacy Policy', 'title': ''}
+- {'href': 'https://www.facebook.com/ads/preferences/?entry_product=ad_settings_screen', 'text': 'Facebook’s Opt-Out Page', 'title': ''}
+- {'href': 'https://twitter.com/en/privacy', 'text': 'Twitter Privacy Policy', 'title': ''}
+- {'href': 'https://twitter.com/personalization', 'text': 'Twitter’s Opt-Out Page', 'title': ''}
+- {'href': 'https://liveramp.com/privacy/', 'text': 'Liveramp’s Privacy Policy', 'title': ''}
+- {'href': 'https://liveramp.com/opt_out/', 'text': 'Liveramp Opt-Out Page', 'title': ''}
+- {'href': 'mailto:privacy@nbcuni.com', 'text': 'Privacy@nbcuni.com', 'title': ''}
+- {'href': 'https://www.onetrust.com/products/cookie-consent/', 'text': '', 'title': ''}
