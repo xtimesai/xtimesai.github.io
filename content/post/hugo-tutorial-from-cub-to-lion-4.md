@@ -9,81 +9,39 @@ draft: false
 
 {{< youtube SVvihs0WfhQ >}}
 
-## Introduction to Hugo Tutorial
 
-Hey team, welcome to this introduction to Hugo tutorial. The goal of this series is to take you from a lion cub with basic web design knowledge to creating your first Hugo site. 
+With Hugo templating, you can control how your page is rendered. You can use variables, loop over arrays, check conditions, and run functions. Think of it as a simple programming language to help build the pages on your site. Those curly braces in your layout? That's Hugo templating.
 
-In this series, you'll learn how to set up a Hugo site, the basics of Hugo layouts, partials, and templating, set up a blog, and finally use data files. 
+## What is Front Matter?
 
-By the end of this series, you'll have the foundational knowledge to build your own Hugo site.
+Front matter is a snippet of metadata at the top of content files. Some metadata is specifically for Hugo, such as setting a layout or indicating that the current page is a draft. Other forms of metadata will be specific to your site, like indicating which type of hero to use on the page or listing your five favorite foods. Front matter comes in the form of a YAML snippet at the top of content files, and we've seen this in both the index and about pages. It may not seem like much, but we can reference the front matter using Hugo templating.
 
-## What is Hugo?
+## Understanding Hugo Templating
 
-Hugo is a static site generator. It takes a directory of source files and runs a build process over them to generate a purely static website. 
+Hugo uses Go templating as its templating language for layouts. It's easy once you get your head around it. As with many things in Hugo, sometimes it's easier to show rather than tell. You can write normal HTML in your layouts and use curly braces to execute code inside them. For example, outputting "Hello" will render "Hello" rather than showing the curly braces and double quotes.
 
-What makes a Hugo site unique is its unparalleled build speeds and strict conventions around layouts, taxonomies, and content. 
+You can reference variables from front matter in a layout. For instance, outputting the title from two pages in a layout is done with `.Params.VariableName`, like `.Params.Title`. You might want to set a variable globally in your `config.toml` file; for example, setting a title as part of the scaffolding allows access using `.Site.Title`.
 
-It's a static site generator that powers high-profile websites such as Let's Encrypt, 1Password, the Lino documentation, and digital.gov.
+## Using Conditions and Variables
 
-Hugo is one of the simplest static site generators to install as it's distributed as a single binary—one of the many perks of a Go program. If you're using macOS or Linux, then Homebrew is the easiest way to install Hugo. 
+You can set conditions to check if a title is set in params; if it is, output the params title; otherwise, output the site title. Variables can be set with the dollar sign. Here we're setting 'Gazelle' as our favorite food and then outputting it.
 
-Once you have Homebrew installed, you can run:
+## Iterating Over Arrays
 
+You can iterate over arrays by initializing an array of best friends and using `range` to iterate over them. The context of each iteration is set to `.` so outputting `.` in the first iteration will output "Pumba," then "Timon," etc.
 
-```
-brew install hugo
-```
+## Nested Keys and Context Management
 
+You can iterate over nested keys using `with`. For example, if you have an appearance with eyes, snoots, whiskers, and limbs (where limbs is an array), you can output that structure in your layout more easily using `with`. Without `with`, you'd need to reference it fully each time like `.Params.Appearance.Eyes`. Using `with` simplifies it to `.Eyes`.
 
-If you're on Windows, then Chocolatey package manager is the way to go. Once Chocolatey is installed, you can run:
+## Practical Application
 
+Let's put our new Hugo templating knowledge into action by adding a footer to the website that includes your name and current year. Additionally, we'll add an optional front meta field you can use to hide the footer on a particular page.
 
-```
-choco install hugo-extended --confirm
-```
+Start by editing your `config.toml` file to add your name under a params object. Then create a partial named `footer.html` in partials. In this partial, check if `params.hideFooter` exists; if it does, output no footer; otherwise, output a footer with "Website made by Site.Params.Name" and the current year.
 
+Finally, add this partial just before the closing body tag in your base template. Pass up the current page's context for this params hide footer check.
 
-Let's triple check that all went to plan. In your terminal, check the Hugo version:
+To verify that the front matter hide footer field works, go to your about page and add `hideFooter: true`. The homepage will display the footer while the about page will not.
 
-
-```
-hugo version
-```
-
-
-If that printed out a version number, you're good to go! 
-
-If not, consult the Hugo documentation or reach out on the Hugo community forums.
-
-Now we're going to set up our Hugo site. 
-
-In your terminal, navigate to the directory where you want your Hugo project to live and run this command:
-
-
-```
-hugo new site my-first-hugo-site
-```
-
-
-Hugo will set up the scaffolding for your site. 
-
-Open your site up in your favorite code editor and poke through the contents. You'll see a number of directories that probably don't mean anything to you at this stage. 
-
-I'll give a brief explanation of each one, but don't fret if you don't understand them right now; they'll become more familiar over the course of this series.
-
-archetypes: Defines the default metadata (also known as front matter) for new content. You don't need to worry about archetypes for this series.
-
-content: Your typically markdown content for pages lives here.
-
-data: CSV, JSON, XML files that can be accessed like a read-only database.
-
-layouts: The page templates for your content.
-
-static: All your assets that don't need processing (often images, fonts, PDFs, etc.).
-
-themes: Jumpstart your Hugo site with an existing theme (we won't be using themes in this series).
-
-config.toml: The configuration for your soon-to-be flourishing Hugo site.
-
-
-Stay tuned for the next lesson; we will learn the basics of Hugo layouts!
+Next up, we'll explore creating a blog in Hugo and put our new Hugo templating knowledge to the test.
