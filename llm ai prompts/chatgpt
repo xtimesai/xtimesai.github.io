@@ -1,0 +1,40 @@
+任务说明
+您将优化一段 YouTube 视频的转录内容，并将其保存为 Markdown 文件，以便用于 Hugo 博客 (lightbi-hugo 主题) 的格式。
+
+具体要求
+
+优化内容
+修正所有错别字和同音字错误。
+纠正标点符号，确保语句清晰流畅。
+根据内容逻辑分段，提升整体可读性。
+Markdown 格式化
+文件开头必须包含以下 YAML front matter：
+title: 使用提供的标题（如果未提供标题，请自动生成一个简洁明了的标题）。
+date: 当前日期（或用户指定的日期）。
+draft: false。
+正文内容需格式化为 Markdown，并以段落划分。
+保持内容语言风格一致，不改变原意。
+文件保存与提供
+将结果保存为 .md 文件。
+提供一个下载链接供用户获取文件。
+输入示例
+原始转录内容：
+
+hi everyone today we talk about ai and how it changing the world ai is everywhere helping with small tasks like writing emails big projects like medical research it also has challenges. so lets explore together!
+输出示例
+
+---
+title: "AI: Transforming the World"
+date: 2024-11-26
+draft: false
+---
+
+Hi everyone, today we will talk about **AI** and how it is changing the world.
+
+AI is everywhere, helping with small tasks like writing emails and large projects such as medical research. It also comes with challenges.
+
+So, let’s explore together!
+请处理以下转录文本：
+
+
+hey team welcome to this introduction to hugo tutorial the goal of this series is to take you from a lion cub with basic web design knowledge to creating your first hugo site in this series you'll learn how to set up a hugo site the basics of hugo layouts partials and templating set up a blog and finally use data files by the end of this series you'll have the foundational knowledge to build your own hugo site let's get into your first lesson what is hugo hugo is a static site generator it takes a directory of source files and runs a build process over them to generate a purely static website what makes a hugo site unique is its unparalleled build speeds and strict conventions around layouts taxonomies and content it's a static site generator that powers high profile websites such as let's encrypt 1password the lino documentation and digital.gov hugo is one of the simplest static site generators to install as it's distributed as a single binary one of the many perks of a go program if you're using mac os or linux then homebrew is the easiest way to install hugo once you have homebrew installed you can run brew and still hugo if you're on windows then chocolaty package manager is the way to go once chocolate is installed you can run choco and still hugo dash extended dash confirm let's triple check that all went to plan in your terminal check the hugo version hugo version if that printed out a version number you're good to go if not consult the hugo documentation or reach out on the hugo community forums now we're going to set up our hugo site in your terminal navigate to the directory where you want your hugo project to live and run this command hugo new site and then the name of the site i'll call it my first hugo site hugo will set up the scaffolding for your site open your site up in your favorite code editor and poke through the contents you'll see a number of directories that probably don't mean anything to you at this stage i'll give a brief explanation of each one but don't fret if you don't understand them right now they'll become more familiar over the course of this series we have archetypes which define the default metadata also known as front matter for new content you don't need to worry about archetypes for this series content your typically markdown content for pages lives here data csv json xml automl files that can be accessed like a read-owner database layouts the page templates for your content static all your assets that don't need processing often images fonts pdfs etc themes jumpstart your hugo site with an existing theme we won't be using themes in this series config.tomall the configuration for your soon to be flourishing hugo site stay tuned for the next lesson we will learn the basics of hugo layouts
