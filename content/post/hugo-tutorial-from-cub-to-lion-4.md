@@ -7,7 +7,7 @@ image : "img/from-cub-1.jpg"
 draft: false
 ---
 
-{{< youtube SVvihs0WfhQ >}}
+{{< youtube iDAWQHSH5fE >}}
 
 
 With Hugo templating, you can control how your page is rendered. You can use variables, loop over arrays, check conditions, and run functions. Think of it as a simple programming language to help build the pages on your site. Those curly braces in your layout? That's Hugo templating.
