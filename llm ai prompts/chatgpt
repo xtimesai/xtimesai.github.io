@@ -18,7 +18,120 @@ Please process the following transcript:
 
 [[[
 
-hello everyone welcome to the channel in this video I'm going to show you how you can install this vs code extension cine on your local system you can use the same instructions for Windows Linux Mac or wherever you have installed VSS code as all the extensions and vs code are the same everywhere on every operating system this extension client has been rebranded from its predecessor Cloud Dev and I already have covered that CLA Dev in extensive on the channel so if you're interested please have a look but for this one we are just going to install this client on our vs code and then we will go from there as how it works now you can use this client with olama and various other API providers I will be showing you how you can use it with ol but as we always have been very transparent and neutral on this channel so I will tell you this heads up up front that it's really not good at all with AMA based or any open- Source models this vs code extension cine Works only decently with anthropic clouds model or somewhat okay with open AI models and both of them as you know are API based and paid options they are not free at all and this could could get pretty expensive very very quickly even with the smaller code bases so um just if you're using the anthropics CLA or open a API key be very very aware of your cost because that could just give you a bill shock that is why I believe that AI assistants especially the coding assistants which run locally it is a must to use local models with Ama or any other API providers and there are few ways you can set other API providers with client or previously CLA Tab and I will also show you how you can do that so that's out of the way we'll be using Gama of course and I will show you which model performs decently or somewhat okay with this one anyway so first up let me open my VSS code editor so you can see that this is my vs code editor and by the way I am running this open 2 22.4 but as I said doesn't matter which operating system you running this VM which I'm running um has been sponsored by mast compute also they have given me the GPU for this if you're also looking to rent a GPU on good prices I will drop the link to their website in videos description so please do check them out and I will also give you uh 50% coupon code on range of gpus and you won't get a better deal than that you can check out the videos description okay let's go back to the client and by the way if you have used Cloud uh Cloud Dev before there is not much difference between that and this so clein is a new name so I believe that stands for CLI and editor as per its GitHub repo it can handle complex software development tasks so whatever you can do with a model client can do that it has done some prompt engineering magic behind the scene where it performs lot of tasks they also have recently added um few new features where you can create and edit files you can execute commands directly in your terminal and also you can do the web development task where client can launch the site in a headless browser to capture screenshots and console logs which allows it to fix runtime errors and visual bugs another cool thing is that you can run it entirely in readonly mode if you don't want it to access your local system okay so that said and done let me launch my vs code also make sure that you running the latest version of vs code otherwise there will there are many features which won't work so if I go to help and go to about you will see that I'm running the most latest version which is 1. n4.9 so please make sure that you are using it if you don't know how to upgrade vs code I already have done a video on it please check it out on for every operating system so you should be able to easily upgrade your vs code to the latest version and then you can see that I have just open up uh directory called as my code and there is a file called as test.py which is all empty and then just simply click on left hand side on extensions here these are vs code extension just search for client and then you will see there is a client there which is previously CLA Dev click on install here let's wait for it to get installed and that is all done and you can also click here on settings to change the vs code settings but as you can see that on the left hand side client's icon has appeared so click on it and the client will open on the left hand side that is done let me also open that folder again where I have that my code so I'm just going to open this local folder on my local system and if I go here on the files you will see that I have this tested by open okay let's go back to this client here now first step you need to do is to go set your model you see there is a wheel icon or settings at the top on the left where the client is click on it and from here you can select your provider so it supports open AI Google's Gemini AMA and few other so select AMA from here now if you don't know what AMA is then please search my channel I have done more than I guess 800 videos on AMA so AMA is one of the easiest and fastest way to run large language models locally in order to install it simply click on this download and then for Linux run this command for Windows and Mac download it executable and then go to models from there I have seen that it works okay with coin 2.5-h coder model so select this and then just run o Lama run coin 2.5 coder copy this command go to your terminal this is my terminal I already have Ama installed by the way if I do AMA list you will see that I already have this one 2.5 running if you don't simply run this command AMA run or maybe AMA you can do AMA pull and then you should have qu 2.5 coder running on your local system so I already have done it as you can see here so go back to your vs code and then select API provider as Lama and then you will see that it automatically will detect that coin 2.5 coder is there once that's done just click on done and now you are all set and ready to uh use this client vs code extension as an AA coding assistant let me show you a quick example too and before I do that let me also give a huge thanks to our sponsors of the video which are agent ql agent ql is a cury language for extracting data from web pages quickly easily and at scale it is resilient reusable it structures output according to the shape of your query and it works on any page even behind authentication and with its python SDK and live debugging tool you can scrape and interact with web content very very easily okay so that we know now let's go back here and then let me play around with it a bit now for this I'm just giving it a sample prompt I'm asking it in the bottom left that create me a simple python flask app and run it locally the app should display hello world in browser if any errors fix it and rerun it you can use existing at file so this is something they provide so you see it is running at the moment it is telling you some of the stuff so it says that it wants to read this file I'll say approve here let's wait for it I'll just say approve and then you see it is started creating flas cap there how good is that and you can save it and then you can of course iterate through it and create your application quite easily so that's it guys I hope that you enjoyed it let me know what do you think about this a new client as I said um it is okay but you know I haven't shown you when you start talking with it there are few issues where it can't do partial file edits it has to rewrite it and then it starts showing errors some there are some bugs around Json so I'll be very transparent uh as soon as it really gets something serious and complicated it just simply stops working with AMA based model which are the quantized versions of the model and of course um maybe there is no match for that but I have seen some of the extensions out there which work perfectly well with the AMA based models like we have continue and few others and I already have covered them on the channel but I'm more than sure this tool is going to grow and evolve further and these limitations will be taken care of but for now if you want to use client in a production environment for some serious programming development you would have to use the API based model especially the anthropic um model CLA Sonet and all that stuff if you like the content please consider subscribing to the channel if you're already subscribed please do me a favor and share it among your network as it helps a lot thanks a lot for your support and thanks for watching
 
-
+intro: what is ottodev + qwen2.5-coder-32b
+last night a teenager from acon Ohio
+made Silicon Valley panic when he
+generated a working app prototype using
+English prompts he used bolt. new an AI
+tool that lets anyone build apps without
+touching a line of code thanks to some
+crafty deps and an AI model from China
+it can now run this tool for free on
+your computer with no limitations the
+story starts with Cole Medan a developer
+who saw bul do new and thought he could
+make it better he forked the project
+called it AEV and made it work with open
+source llms while this was happening
+Alibaba casually dropped qu 2.5 quarter
+32b an open source model on par with a
+big Bose of quoting llms that means it
+can be run with no API cost no rate
+limits and no corporate spies watching
+your every prompt now you can imagine
+combining Auto Dev with quen 32b you get
+bolt. new with unlimited usage running
+on your machine effectively you have a
+senior Dev who works 24/7 and doesn't
+need human rights so I scrapped
+everything and started fresh documenting
+every step to get Auto dive running with
+quen the guide I made can be found in
+the description and it costs $0 and0 a
+like And subscribe would be nice but
+anyways let's get started the first step
+is to install git head to the download
+download git and node.js
+page and grab the installer for your OS
+you can spam the next button 55 times
+the defaults are fine next up is no. GS
+get the pre-built installer and grab the
+LTS version long-term support for the
+acronym challenge same deal next next
+next finish now the fun part open CMD as
+clone ottodev repo
+admin windows will panic about security
+but we're doing it anyways
+congratulations you're now in The Matrix
+time to clone the autod dev repo it
+might sound like UFO language so just
+copy the command and press enter it's
+basically downloading someone else's
+code but the word cloning sounds cooler
+pnpm install
+next we'll do a quick npm install to
+download project dependencies you're one
+step closer to meeting bull. news
+rebellious open source cousin run npm
+randev and write down the Local Host
+number will need it in a minute now that
+npm has finished delivering packages and
+json mods
+making Amazon proud we'll now do some
+Json surgery find the package.json file
+in your autod Dev folder and get
+yourself ready to mod it locate the dev
+script and paste the code from the guide
+document replace 3,000 by your Local
+Host number now we will create a startup
+create startup script
+script so you can feel like a proper
+developer create a new text file on your
+desktop and name it autod Dev based in
+these magical lines and add your autod
+Dev folder path rename the file
+extension tobat and you can now launch
+autod Dev with a double click now for
+ollama and qwen install
+the AI part we're going to install AMA
+download install done you'll see a
+little llama in your system Chay there
+is also a good resource for many of the
+AMA commands and I have linked it in the
+guide document on that website you will
+be able to see the AMA commands that are
+useful and some explanations about them
+the next step is to download the new k
+did on the Block Grand 32b this is the
+secret sauce that makes everything work
+if your GPU has been skipping leg day
+drop down to 14b or 7B instead same
+commence you just have to change the
+number we'll then increase the context
+window to max out the stats of quen 32b
+create a file and baptize it model file
+copy the code and take a sip of water
+once this is done remove the extension
+and run CMD again do a back flip break
+your neck go to to the hospital and copy
+the code to finish creating your llm
+with increased context window you can
+then run AMA list in order to flex your
+new AI Army we're now done you passed
+testing results
+the hunter exam let's do a test type
+create a to-do app and watch the magic
+happen your GPU fan might sound like a
+private jet and that's normal hopefully
+if it's taking forever to generate or
+stock loading you can try a smaller
+model or tell people your GPU used to be
+in the Pro leagues before its knee
+injury that's it you've got unlimited
+access to bald. new running completely
+locally time to build that million dooll
+app idea you've been sitting on and
+maybe consider subscribing as well thank
+you for watching and see you next time
 ]]]
