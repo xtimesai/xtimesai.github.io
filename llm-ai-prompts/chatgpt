@@ -17,16 +17,223 @@ Hi everyone, today we will talk about AI and how it is changing the world. AI is
 Please process the following transcript: 
 
 [[[
-
-hey welcome to draft cabbie my name is Mike and this lesson I just want to give you a broad high-level overview of Hugo static site generator static web site generators allow you to have a compromise between just writing out a bunch of static HTML pages and using a heavy and potentially expensive content management system if you're somebody who wants to start a blog or maybe you want to just have a small website to yourself or even if you want to have a big website to yourself but you don't want to use a content management system like let's say WordPress or Wix or square space then a static site generator and specifically Hugo might be for you
-Hugo is one of many static site generators out there but what's cool about it is it's extremely fast and that's kind of been Hugo's sort of main rallying point as far as marketing their framework is that it's extremely fast and let me tell you it is a lot of these static website generators are out there written in sort of older languages that aren't necessarily optimized for speed
-Hugo's written in the go programming language which uses multi-threading and basically it can do a bunch of stuff at the same time and so it's really useful for doing what Hugo does which is generate static web pages there's two basic types of websites there are dynamic websites and then there's static websites and dynamic websites are websites like for example Facebook so if I go on Facebook and you go on Facebook or to the two Facebook pages that we get back are gonna look different now the headers and the footers and all the the basic layout of the page is gonna look the same the look and feel of the page is gonna look the same but the content that's on the page is gonna be different and if i go and i refresh my facebook page the content that's on there again is gonna be different right facebook pages are dynamically generated so when i go to facebook and i go to facebook.com and they say okay who are you and say okay you're this user I'm gonna generate an entire website for you with your own information your own posts from all your own friends so every time I go on Facebook I get basically different content that shows up that's a dynamic website a static website is a website where what you see is what you get there's just a collection of static web pages that don't change they're not dynamically changing or anything there's
-sort of hard-coded and when I go to a static website the web server just says okay this is the page you want here you go
-and everybody's getting the same page it's not the page in the page content isn't gonna change depending on who you are or where you are or what you're doing so these are essentially at a high level the two types of websites that there are and dynamic websites are notoriously convenient because you know you can put a bunch of logic inside of them they're easy to maintain they're really easy to scale so there's a lot of benefits of using a dynamic website but they're also slow in the sense that every time the user goes onto your web server you have to generate a new web page for them also they're expensive because you have to host these servers somewhere and that costs money that costs computing resources static websites are notoriously a little bit harder to maintain just because you don't have all the flexibility of using a dynamic site and usually you can't use for example like conditional logic you can't use like functions or variables inside of them usually it's just like you have to hard-code your website there's a lot of copying and pasting and stuff like that but static web sites are extremely fast if you're using an HTTP server HTTP is really good at just handing out web pages and so what someone goes to your website all your web server has to do is just give them a page it doesn't have to generate any information doesn't have to go to a database it doesn't have to do anything it just has to give them that page and then boom you're done and that's really fast so there's these two types of websites and there's pros and cons to using both of them
-Hugo is great for someone who wants to have like a blog or maybe just a website of their own but doesn't necessarily want to deal with a content management system like WordPress or Wix or whatever and Hugo is great because if you want you don't have to write a single line of HTML code you can go in you can write all your content using markdown you can use one of the dozens of Hugo themes that have been created by the community and you don't have to write a lick of HTML you just write your content pages and then they show up nice and formatted and organized and and you're done there's no content management system to deal with there's no settings to configure and does no database to set up and all that stuff
-but if you're somebody who wants to get your hands dirty with HTML and you want to go in there and you want to control every single little
-element and aspect of the site you can do that you can write your own Hugo layouts and templates and you can get really deep and you can literally control every single line of code that goes on your website and so he was really flexible in that sense where if you don't want to use HTML you just want to write your blog or whatever you want to do you can do that and it's super easy and it's super convenient if but if you want to control everything about the website you can do that too
-Hugo is 100% free it's open source the community is awesome and honestly there's a lot of Stack Overflow and hugo forums questions and answers out there that you can use and this traffic adam ii course is gonna go through everything that you need to know to get started with you go so you follow along with this course you're gonna know exactly what you need to do to build your website we're gonna start off with the basics we're just gonna look at things like creating content we're gonna talk about using a theme and so if you just want to get your website up and running you don't want to worry about having to program anything or write any HTML and the first part of the course is gonna cover everything that you need to know in the latter part of the course we're gonna get our hands dirty and we're gonna go and we're gonna be looking at how you can control all of the HTML on your page we're gonna look at creating templates and layouts and all that fun stuff we're gonna use conditional logic functions we're gonna get really deep into the specifics of using Hugo so this course has something for everyone and I hope you stick around and follow along and learn about this awesome framework Hugo
-hey thanks for watching if you enjoyed the video please leave a like and subscribe to drop Academy to be the first to know when we release new content also we're always looking to improve so if you have any constructive criticism or questions or anything leave a comment below finally if you're enjoying chopped Academy and you want to help us grow head over to draft Adam EECOM forward slash contribute and invest in our future
+Introduction
+[Music]
+hi welcome to another
+video so I recently covered the bolt
+Fork which basically makes bolt much
+more accessible for local usage it
+About OttoDev (Bolt Fork) New Upgrades
+allows you to use things like Ama or
+almost any open AI compatible API along
+with multiple quality of life features
+for people who want to use it
+locally I covered it in one of my
+previous videos and it was really great
+for sure but recently it has gotten some
+new upgrades that make it much better
+than before with some great new
+features plus I also wanted to show some
+more free apis that I've been using with
+it and I'm really enjoying using it
+these
+days so let's talk about the new
+upgrades and then we'll test them one by
+one so first of all it now has a proper
+name it seems it's now called autod Dev
+I like calling it better bolt but autod
+Dev is also good now these are the new
+things that I haven't covered so let's
+talk about them first of all you now
+have the ability to enter API keys in
+the UI this is pretty good for changing
+keys on the fly without messing around
+with the environment file so that's cool
+there's also the xai Gro beta
+integration which means you should now
+be able to use the gro free credits as
+well which is pretty
+good next there's also the new LM Studio
+integration which means that if you use
+LM Studio then you can now use its API
+with it quite easily without messing
+around with the open AI compatible
+stuff there's also the hugging face
+integration I don't understand what this
+is exactly
+I think it should be the hugging face
+serverless endpoint
+support we'll check this going forward
+apart from this it now has another
+terminal in it that is reserved for the
+llm to run the
+commands previously the terminal used to
+get blocked if the llm was running the
+command but now it has a different
+terminal
+space so it should be pretty good now it
+also now supports streaming of code
+output so now you can see the code
+coming in as it's being generated which
+is quite cool it also has the ability to
+revert code to an earlier version as
+well which means if something goes wrong
+in generation then you now have the
+option to revert back this is a
+lifesaver in many
+situations so this is cool you now also
+have coheres API integration I mean I
+don't use them but if you want to use
+coheres model then you can use it now
+there's also the new Dynamic model max
+token length so previously using it with
+models via Alama was not as good of an
+experience because the local models from
+Alama have a set length of default
+context
+length so now they have made it dynamic
+in the requests that they send from
+their
+thing so now you don't need to create a
+copy of the Alama model
+and then change the model context length
+and then use that now it does that
+automatically by setting a dynamic
+context length in the request itself so
+it's pretty good now prompt catching is
+also now implemented so the API costs
+should now be lower for anthropic
+models another big feature request that
+has now been implemented is the option
+to load local projects into the app
+so now you can load your own projects in
+it and use bolt to iterate on them which
+is a great feature to say the least it
+is also now mobile friendly and the
+prompts are also a little enhanced now
+there's also a new image support pole
+request as well which is close to being
+completed and we can try it out with
+some tinkering as
+well so I'll also show you how to do
+that so now let's try out these things
+one by one
+and check them
+out first of all if you're using it for
+the first time then you can just get it
+Setup & New Features Usage
+cloned with the git clone command or if
+you already have it then just get into
+the folder and run the git pull command
+and it will just pull the new changes
+and you'll get the new
+updates now once done you'll also need
+to run pnpm install because there are
+generally some new packages in it that
+need to be installed as well once you do
+that you can start using it to use it
+just run pnpm runev and once you do that
+it will get started now you can start
+using it first of all you can see that
+the UI is now better than before
+previously there were two drop downs
+sticking out like a sore thumb but now
+it is tightly integrated into it and
+looks good now now
+apart from this you can see that you now
+have some other providers options as
+well like xai or LM studio and stuff
+like that you can also Now set the API
+key within it as well which is also
+great and comes in clutch when you want
+to edit the API key quickly so that's
+cool anyway now you also have some new
+options here as well the first one is
+the import chat option and the other one
+is the import folder option the import
+chat basically allows you to import the
+history of old chat by exporting the
+chat history in the coding
+environment so this is good and I'll
+also show you how to export when we get
+inside now the import folder option
+allows you to import a whole project
+that you have generally you should only
+import the SRC folder because that would
+be better for the
+context once you add it like here you'll
+see that it takes that into context and
+now you can ask it to change something
+in
+it this is a basic to-do app that I have
+here just for
+testing now before we give it some
+prompt let me show you some of the new
+stuff
+pinpointed so here's the bolt terminal
+this is where the llm will run the
+commands and you can run your own
+commands in the actual terminal so
+that's good for sure you also have the
+same features that I showed in the
+previous video and you can also export
+the chat here as well to import it
+through the option on the front
+page anyway let's also ask it to make
+some changes to it let's ask it to add a
+text to the top saying to do king let's
+send it and see okay so you can see that
+the code is now streamed here it is good
+although it's not a necessity for me but
+it's good to see the speed of inference
+and stuff like
+that anyway it did it so this is great
+for
+sure you can also now revert back to an
+earlier version as well by clicking over
+here and getting it
+reverted so this is a great option for
+sure it should also work a lot better
+with AMA as well if you use
+that another thing that it also has is
+the image support and although it hasn't
+been added to the main branch yet it is
+close to being done so you can run it
+yourself as well and test it before it's
+merged once it's merged then you'll just
+have it in the main thing but to use it
+for now you can just make sure that you
+have the GitHub desktop or the CLI tool
+installed and then just go to the poll
+request of the thing
+and here just copy this command and
+paste it in your
+terminal once done you can just run pnpm
+install and then run
+it now you'll see that you also have the
+image option and now you can use it it
+should get available in the main thing
+in the coming weeks I believe but for
+now you can use it like this it works
+quite well although it can be buggy at
+times with different
+providers which is something that would
+need to be ironed out but it's great to
+see as well so that's how you can use it
+and that's all the new updates it has I
+think that this is a great project and
+it only keeps getting better it's just
+amazing for sure overall it's pretty
+cool anyway let me know your thoughts in
+Ending
+the comments if you liked this video
+consider donating to my Channel Through
+the super thanks option below or you can
+also consider becoming a member by
+clicking the join
+button also give this video a thumbs up
+and subscribe to my channel I'll see you
+in the next video till then bye
+[Music]
 
 ]]]
