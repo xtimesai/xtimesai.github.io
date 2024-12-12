@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Services Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Services</h1>
+        <ul>
+            <li><a href="https://www.morphic.sh/">Morphic</a></li>
+            <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+            <li><a href="https://claude.ai/new">Claude</a></li>
+            <li><a href="https://gemini.google.com/app">Gemini</a></li>
+            <li><a href="https://www.perplexity.ai/">Perplexity</a></li>
+            <li><a href="https://felo.ai/search">Felo</a></li>
+            <li><a href="https://you.com/?chatMode=research">You.com</a></li>
+            <li><a href="https://copilot.microsoft.com/">Copilot</a></li>
+            <li><a href="https://chat.mistral.ai/chat">Mistral</a></li>
+        </ul>
+        <form id="userInputForm">
+            <input type="text" id="userPrompt" placeholder="Enter your prompt here">
+            <button type="submit">Get Response</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('userInputForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const userPrompt = document.getElementById('userPrompt').value;
+            // Here you would typically make an API call to fetch responses from AI services
+            console.log('User prompt:', userPrompt);
+            // TODO: Implement API calls to fetch responses from AI services
+        });
+    </script>
+</body>
+</html>

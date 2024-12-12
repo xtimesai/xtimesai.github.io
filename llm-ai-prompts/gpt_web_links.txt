@@ -1,0 +1,14 @@
+write a homepage, list these web links
+
+https://www.morphic.sh/
+https://chatgpt.com/
+https://claude.ai/new
+https://gemini.google.com/app
+https://www.perplexity.ai/
+https://felo.ai/search
+https://you.com/?chatMode=research
+https://copilot.microsoft.com/
+https://chat.mistral.ai/chat
+
+
+when user input a prompt, try to get response from them
