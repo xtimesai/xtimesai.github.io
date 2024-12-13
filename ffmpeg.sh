@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -filter_complex "[0]select='!(mod(t,15)<5)',setpts=PTS-STARTPTS[v0];  [0]select='mod(t,15)<5',trim=0:5,blackdetect=d=0.1:pic_th=0.1[b];  [b]nullsrc=d=10[black];  [v0][black]concat=n=2:v=1:a=0[out]" -map "[out]" output.mp4
