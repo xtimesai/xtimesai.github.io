@@ -1,42 +1,73 @@
+# Workflow name
 name: Deploy Hugo site to GitHub Pages
 
+# Controls when the workflow will run
 on:
+  # Triggers the workflow on push events but only for the main branch
   push:
     branches:
-      - main  # Set to your default branch name
+      - main  # Make sure this is your SOURCE code branch
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write # Needed to checkout the code and push to gh-pages
+  pages: write      # Needed for GitHub Pages deployment features (though not strictly used in this manual push)
+  id-token: write   # Needed for OIDC token (though not strictly used in this manual push)
 
+# A single job called "build-and-deploy"
 jobs:
   build-and-deploy:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
-          fetch-depth: 0
+          submodules: true  # Fetch Hugo themes (if using Git submodules)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      # Install Hugo directly without using peaceiris/actions-hugo
+      # Install the specific Hugo version
       - name: Setup Hugo
         run: |
+          # Download the Hugo extended version .deb package
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_extended_0.123.6_linux-amd64.deb
+          # Install the package
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          # Verify the installation
           hugo version
 
+      # Build the Hugo site
       - name: Build
+        # Use the --minify flag to reduce file sizes
         run: hugo --minify
 
-      # Deploy directly to GitHub Pages branch instead of using actions/upload-pages-artifact and actions/deploy-pages
+      # Deploy the built site to the gh-pages branch
       - name: Deploy to GitHub Pages
         run: |
+          # Navigate into the public directory (Hugo's default build output folder)
           cd public
+
+          # Configure Git user for the commit
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
+
+          # Initialize a new Git repository in the public directory
           git init
+
+          # Stage all files in the public directory
           git add .
-          git commit -m "Deploy Hugo site"
-          git push --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" main:gh-pages
+
+          # Commit the staged files
+          # The commit will be on the 'master' branch by default
+          git commit -m "Deploy Hugo site build from commit ${{ github.sha }}"
+
+          # Force push the current local branch ('master') to the remote 'gh-pages' branch
+          # This overwrites the history of the 'gh-pages' branch with the new build
+          # Using github.token for authentication
+          # CORRECTED LINE: Pushing 'master' (local) to 'gh-pages' (remote)
+          git push --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" master:gh-pages
+
+          echo "Deployment script finished."
