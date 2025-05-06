@@ -1,62 +1,85 @@
-name: Deploy Hugo site to GitHub Pages  
-  
-on:  
-  # Runs on pushes targeting the default branch  
-  push:  
-    branches: ["main"]  
-  
-  # Allows you to run this workflow manually from the Actions tab  
-  workflow_dispatch:  
-  
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages  
-permissions:  
-  contents: read  
-  pages: write  
-  id-token: write  
-  
-# Allow only one concurrent deployment  
-concurrency:  
-  group: "pages"  
-  cancel-in-progress: true  
-  
-# Default to bash  
-defaults:  
-  run:  
-    shell: bash  
-  
-jobs:  
-  # Build job  
-  build:  
-    runs-on: ubuntu-latest  
-    steps:  
-      - name: Checkout  
-        uses: actions/checkout@v3  
-        with:  
-          submodules: recursive  
-          fetch-depth: 0  
-  
-      - name: Setup Hugo  
-        uses: peaceiris/actions-hugo@v2  
-        with:  
-          hugo-version: 'latest'  
-          extended: true  
-  
-      - name: Build  
-        run: hugo --minify  
-  
-      - name: Upload artifact  
-        uses: actions/upload-pages-artifact@v1  
-        with:  
-          path: ./public  
-  
-  # Deployment job  
-  deploy:  
-    environment:  
-      name: github-pages  
-      url: ${{ steps.deployment.outputs.page_url }}  
-    runs-on: ubuntu-latest  
-    needs: build  
-    steps:  
-      - name: Deploy to GitHub Pages  
-        id: deployment  
-        uses: actions/deploy-pages@v2
+# Name of the workflow as it will appear in GitHub Actions
+name: Deploy Hugo site to Pages
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push events but only for the main branch
+  push:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions for the GITHUB_TOKEN
+permissions:
+  contents: write  # Required for checking out the repository
+  pages: write     # Required for deploying to GitHub Pages
+  id-token: write  # Required for authentication
+
+# Define all the jobs that run as part of this workflow
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out your repository under $GITHUB_WORKSPACE
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use the automatic token for authentication
+      
+      # Step 2: If there are any Git issues, try to clean them up
+      - name: Clean Git Environment
+        run: |
+          git reset --hard
+          git clean -fdx
+          
+      # Step 3: Setup Hugo environment
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'  # Use the latest version of Hugo
+          extended: true          # Use Hugo Extended for SASS/SCSS support
+          
+      # Step 4: Configure Git for any Git operations
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+      # Step 5: Check Hugo version (helpful for debugging)
+      - name: Check Hugo Version
+        run: hugo version
+          
+      # Step 6: Build Hugo site
+      - name: Build Hugo Site
+        env:
+          # Add any environment variables your Hugo site needs
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --minify
+          
+      # Step 7: Upload the built site as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public  # The built site files are in the public directory
+          
+  # Deploy job
+  deploy:
+    # Only run deploy after build is successful
+    needs: build
+    runs-on: ubuntu-latest
+    
+    # Specify environment for deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+      # Single step to deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
