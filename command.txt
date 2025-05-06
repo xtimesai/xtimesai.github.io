@@ -1,0 +1,2 @@
+hugo new content/post/2025/RaymondChin/index.md
+

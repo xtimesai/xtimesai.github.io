@@ -1,0 +1,10 @@
+{{- $gistUser := .Get 0 -}}  
+{{- $gistId := .Get 1 -}}  
+{{- $gistFile := .Get 2 -}}  
+  
+<script src="https://gist.github.com/{{ $gistUser }}/{{ $gistId }}.js{{ if $gistFile }}?file={{ $gistFile }}{{ end }}"></script>  
+<noscript>  
+  <div class="gist">  
+    <a href="https://gist.github.com/{{ $gistUser }}/{{ $gistId }}{{ if $gistFile }}?file={{ $gistFile }}{{ end }}">View this gist on GitHub</a>  
+  </div>  
+</noscript>
