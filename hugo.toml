@@ -45,7 +45,7 @@ pagerSize = 6
     LanguageCode  = "en"
     LanguageName = "English"
     weight = 1
-    title = "Ai x Daily"
+    title = "渥太华的活跃房产经纪人列表"
     contentDir = "content/en"
 
   [languages.ml]

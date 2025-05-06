@@ -7,21 +7,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ml"
-                href="https://xtimesai.github.io/ml/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xtimesai.github.io/en/"
-                />
-  </url><url>
     <loc>https://xtimesai.github.io/en/tags/blog/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -56,6 +41,21 @@
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ml"
+                href="https://xtimesai.github.io/ml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xtimesai.github.io/en/"
+                />
   </url><url>
     <loc>https://xtimesai.github.io/en/post/2025/haiyunwang/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
