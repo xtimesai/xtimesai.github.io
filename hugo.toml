@@ -33,7 +33,7 @@ Lastmod = false
 rss = true
 pagination = "10"
 hideAuthor = false
-description="Ai Times Daily"
+description="渥太华的活跃房产经纪人列表"
 lunrSearch = true
 previewCardImagePlacement = "top"
 
