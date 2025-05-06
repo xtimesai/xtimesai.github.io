@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ml/categories/</loc>
+    <loc>https://xtimesai.github.io/ml/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://xtimesai.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ml"
-                href="http://localhost:1313/ml/categories/"
+                href="https://xtimesai.github.io/ml/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ml/</loc>
+    <loc>https://xtimesai.github.io/ml/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://xtimesai.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ml"
-                href="http://localhost:1313/ml/"
+                href="https://xtimesai.github.io/ml/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ml/tags/</loc>
+    <loc>https://xtimesai.github.io/ml/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://xtimesai.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ml"
-                href="http://localhost:1313/ml/tags/"
+                href="https://xtimesai.github.io/ml/tags/"
                 />
   </url>
 </urlset>
