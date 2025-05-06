@@ -5,41 +5,47 @@ on:
     branches:
       - main  # Set to your default branch name
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
 
+      # Install Hugo directly without using peaceiris/actions-hugo
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true  # Use Hugo Extended version for SCSS/SASS processing
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_extended_0.123.6_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          hugo version
 
       - name: Build
         run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
 
-  # Deploy job
   deploy:
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
