@@ -1,5 +1,10 @@
 baseURL = 'https://xtimesai.github.io/'
 DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+
 defaultContentLanguageInSubdir = false
 languageCode = "en-us"
 title = "渥太华买房子"

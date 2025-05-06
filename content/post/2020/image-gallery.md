@@ -16,7 +16,9 @@ Here’s a custom Hugo shortcode that creates an image gallery in a masonry styl
 **Shortcode**:  
 ```
 {{/*< img_gallery  folder="img/travel/" >*/}}
+{{< img_gallery images="/img/1.jpg,/img/2.jpg" >}}
+
 ```
 
 **Output**:
-{{< img_gallery  folder="img/travel/" >}}
+{{< img_gallery folder="img/travel/" >}}
