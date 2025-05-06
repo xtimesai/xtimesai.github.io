@@ -1,6 +1,6 @@
 baseURL = "https://xtimesai.github.io/"
 DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 languageCode = "en"
 title = "渥太华的活跃房产经纪人列表"
 theme = "lightbi-hugo"
