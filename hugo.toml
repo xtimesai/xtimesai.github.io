@@ -57,7 +57,7 @@ pagerSize = 6
 
 [Params.Author]
   name = "John Liu"
-  website = "https://aixdaily.github.io/"
+  website = "https://xtimesai.github.io/"
   authorInfo = "Stay Humble, Stay Hungry"
   authorPostImage = "/img/author-post-img.jpg"
   facebook = "username"
