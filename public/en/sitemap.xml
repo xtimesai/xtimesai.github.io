@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xtimesai.github.io/en/post/</loc>
-    <lastmod>2024-11-11T19:06:46-05:00</lastmod>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://xtimesai.github.io/en/</loc>
-    <lastmod>2024-11-11T19:06:46-05:00</lastmod>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -22,28 +22,23 @@
                 href="https://xtimesai.github.io/en/"
                 />
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/articlename/</loc>
-    <lastmod>2024-11-11T19:05:38-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://xtimesai.github.io/en/tags/blog/</loc>
-    <lastmod>2024-11-11T10:07:12-05:00</lastmod>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/tags/hugo/</loc>
-    <lastmod>2024-11-11T10:07:12-05:00</lastmod>
+    <loc>https://xtimesai.github.io/en/tags/first-post/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/tags/markdown/</loc>
-    <lastmod>2024-11-11T10:07:12-05:00</lastmod>
+    <loc>https://xtimesai.github.io/en/post/2025/raymondchin/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://xtimesai.github.io/en/tags/</loc>
-    <lastmod>2024-11-11T10:07:12-05:00</lastmod>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -56,6 +51,41 @@
                 hreflang="en"
                 href="https://xtimesai.github.io/en/tags/"
                 />
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2025/wendywang/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2025/rubyxue/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2025/mandyzhao/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2025/guolei/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2024/articlename/</loc>
+    <lastmod>2024-11-11T19:05:38-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/tags/hugo/</loc>
+    <lastmod>2024-11-11T10:07:12-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/tags/markdown/</loc>
+    <lastmod>2024-11-11T10:07:12-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://xtimesai.github.io/en/tags/tutorial/</loc>
     <lastmod>2024-11-11T10:07:12-05:00</lastmod>
@@ -259,6 +289,14 @@
   </url><url>
     <loc>https://xtimesai.github.io/en/post/2020/jan/who-am-i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2025/haiyunwang/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/2025/helentang/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
